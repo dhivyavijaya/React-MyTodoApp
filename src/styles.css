@@ -1,0 +1,204 @@
+.card-design {
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 5px 8px grey;
+  }
+  .main-div {
+    background-color: #f5f2f2;
+    padding: 0;
+  }
+  .main-div h2 {
+    margin-bottom: 20px;
+  }
+  .main-div label {
+    width: 40%;
+    font-size: 23px;
+  }
+  .add-btn {
+    margin-left: 40%;
+  }
+  .input-field {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  ul {
+    list-style: none;
+    margin-bottom: 0;
+    margin-left: -27px;
+  }
+  .card-list {
+    width: 50%;
+    margin: 0px auto 10px auto;
+    box-shadow: 0px 5px 8px grey;
+  }
+  .list {
+    display: flex;
+  }
+  .list-text {
+    width: 20%;
+  }
+  .list-text span {
+    font-family: Georgia;
+    margin-right: 20px;
+    width: 20%;
+  }
+  .list-desc {
+    width: 50%;
+  }
+  .list-desc span {
+    font-family: Arial;
+    width: 60%;
+  }
+  .list-button {
+    width: 30%;
+  }
+  .btn1 {
+    padding: 1% 13% !important;
+  }
+  .btn2 {
+    padding: 1% 8% !important;
+    margin-left: 2%;
+  }
+  .edit-btn {
+    padding: 1% 2%;
+    margin-left: 2%;
+  }
+  @media screen and (min-width: 913px) and (max-width: 1024px) {
+    .list-text {
+      width: 25%;
+    }
+    .list-text span {
+      margin-right: 0px;
+      font-size: 13px;
+    }
+    .list-desc {
+      width: 45%;
+    }
+    .list-desc span {
+      font-size: 13px;
+    }
+    .list-button {
+      width: 34%;
+    }
+    .btn1,
+    .btn2 {
+      font-size: 12px !important;
+    }
+    .card-body {
+      padding: 15px !important;
+    }
+  }
+  @media screen and (min-width: 540px) and (max-width: 912px) {
+    .main-div label {
+      font-size: 11px;
+    }
+    input::placeholder {
+      font-size: 11px;
+    }
+    .list-text {
+      width: 25%;
+    }
+    .list-text span {
+      margin-right: 0px;
+      font-size: 10px;
+    }
+    .list-desc {
+      width: 45%;
+    }
+    .list-desc span {
+      font-size: 10px;
+    }
+    .list-button {
+      width: 34%;
+    }
+    .btn1,
+    .btn2 {
+      font-size: 8px !important;
+    }
+    .card-body {
+      padding: 10px !important;
+    }
+  }
+  @media screen and (min-width: 281px) and (max-width: 480px) {
+    .main-div label {
+      font-size: 7px;
+    }
+    .input-field {
+      height: 20px;
+      font-size: 10px;
+    }
+    input::placeholder {
+      font-size: 7px;
+    }
+    .add-btn {
+      margin-left: 30%;
+      font-size: 10px !important;
+    }
+    .edit-btn {
+      font-size: 10px !important;
+    }
+    .list-text {
+      width: 25%;
+    }
+    .list-text span {
+      margin-right: 0px;
+      font-size: 7px;
+    }
+    .list-desc {
+      width: 45%;
+    }
+    .list-desc span {
+      font-size: 7px;
+    }
+    .list-button {
+      width: 34%;
+    }
+    .btn1,
+    .btn2 {
+      font-size: 5px !important;
+    }
+    .card-body {
+      padding: 8px !important;
+    }
+  }
+  @media screen and (max-width: 280px) {
+    .main-div label {
+      font-size: 5px;
+      margin-left: -10px;
+      width: 41%;
+    }
+    .input-field {
+      font-size: 6px;
+      width: 78%;
+      margin-right: -28px;
+    }
+    input::placeholder {
+      font-size: 8px;
+    }
+    .add-btn, .edit-btn {
+      font-size: 6px !important;
+    }
+    .list-text {
+      width: 17%;
+    }
+    .list-text span {
+      margin-right: 0px;
+      margin-left: -5px;
+      font-size: 5px;
+    }
+    .list-desc {
+      width: 40%;
+    }
+    .list-desc span {
+      font-size: 5px;
+    }
+    .list-button {
+      width: 43%;
+    }
+    .btn1, .btn2 {
+      font-size: 5px !important;
+    }
+    .card-list .card-body {
+      padding: 6px !important;
+    }
+  }
